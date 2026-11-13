@@ -41,24 +41,30 @@ BookMyJourney/
 │   ├── index.css
 │   ├── main.jsx
 │   └── tripPlanner.jsx
+├── screenshots/
+│   ├── desktop-homepage.png
+│   ├── desktop-features-pricing.png
+│   └── mobile-homepage.png
 ├── index.html
 ├── package.json
 ├── package-lock.json
 └── README.md
 ```
 
+*Note: Screenshot filenames above are examples. Keep the actual filenames in this section consistent with the files in your repository.*
+
 ## Installation and Setup
 
 ### 1. Clone the repository
 
 ```bash
-https://github.com/Asr1403/BookMyJourney
+git clone https://github.com/Asr1403/BookMyJourney.git
 ```
 
 ### 2. Navigate to the project folder
 
 ```bash
-cd trippilot-landing
+cd BookMyJourney
 ```
 
 ### 3. Install dependencies
@@ -98,6 +104,18 @@ The website is deployed using Netlify.
 ## Design Approach
 
 BookMyJourney uses a premium dark navy and purple visual theme to create a modern travel SaaS experience. The interface uses clear sections, consistent spacing, attractive destination imagery, and responsive layouts to make navigation simple and engaging.
+
+## Challenges and Solutions
+
+- Creating a consistent and attractive SaaS landing-page design.
+- Making the layout responsive across desktop, tablet, and mobile screens.
+- Organizing the website into reusable React components.
+- Implementing interactive pricing options and contact-form validation.
+- Deploying the production build through Netlify.
+
+## Screenshots
+
+The `screenshots` folder contains desktop and mobile screenshots demonstrating the website layout and responsive design.
 
 ## Future Improvements
 
