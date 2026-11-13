@@ -1,0 +1,63 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 100">
+  <defs>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff9b35"/>
+      <stop offset="100%" stop-color="#ff6b00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Globe -->
+  <circle cx="48" cy="46" r="34" fill="#1749b5"/>
+
+  <path
+    d="M14 46h68 M48 12c-18 20-18 48 0 68 M48 12c18 20 18 48 0 68"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="2.5"
+  />
+
+  <path
+    d="M20 29c17 10 39 10 56 0 M20 63c17-10 39-10 56 0"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="2"
+  />
+
+  <!-- Orange flight path -->
+  <path
+    d="M9 20C-2 48 5 76 28 87"
+    fill="none"
+    stroke="url(#orange)"
+    stroke-width="5"
+    stroke-linecap="round"
+  />
+
+  <!-- Airplane -->
+  <path d="M56 13L91 1L78 25L68 22L56 13Z" fill="#1749b5"/>
+  <path d="M68 22L78 25L69 34L65 25Z" fill="#ff9b35"/>
+
+  <!-- Brand name -->
+  <text
+    x="105"
+    y="48"
+    font-family="Arial, sans-serif"
+    font-size="37"
+    font-weight="800"
+    fill="#f5f7ff"
+  >
+    BookMy<tspan fill="#ff9b35">Journey</tspan>
+  </text>
+
+  <!-- Tagline -->
+  <text
+    x="108"
+    y="76"
+    font-family="Arial, sans-serif"
+    font-size="17"
+    font-style="italic"
+    fill="#aab5ce"
+  >
+    Discover. Book. Explore.
+  </text>
+</svg>
